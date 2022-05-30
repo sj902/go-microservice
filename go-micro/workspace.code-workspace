@@ -5,6 +5,12 @@
     },
     {
       "path": "broker-service"
+    },
+    {
+      "path": "project"
     }
-  ]
+  ],
+  "settings": {
+    "makefile.extensionOutputFolder": "./.vscode"
+  }
 }
