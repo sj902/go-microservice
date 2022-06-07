@@ -42,7 +42,9 @@ func (l *LogEntry) Insert(entry LogEntry) error {
 		UpdatedAt: time.Now(),
 	})
 
-	c
+	if err != nil {
+		return err
+	}
 	return nil
 }
 
